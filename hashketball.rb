@@ -190,7 +190,6 @@ def player_stats(player)
         da_stats = player_array.collect {|player_array| player_array[0...8]}
       end 
     end 
-  end
   nu_stats = Hash[da_stats.map {|key, value| [key, value]}]
   end
   binding.pry 
