@@ -188,7 +188,8 @@ def player_stats(player)
     categories[:players].each do |stats|
       if stats[:player_name] == player
         #player_array[:players].each_with_object({}) {|k,v, da_stats|}
-        da_stats = stats.each {|k,v| k = v}
+        #da_stats = stats.each {|k,v| k = v}
+        return player.delete_if { |stat, value| [:player_name].include?(stat)}
       end 
     end 
     da_stats
