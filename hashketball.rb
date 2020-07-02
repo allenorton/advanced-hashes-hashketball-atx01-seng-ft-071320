@@ -202,6 +202,7 @@ def big_shoe_rebounds
   num_rebounds = 0 
   game_hash.each do |home_away, categories|
     categories[:players].each do |player_n|
+      size = player_n[:shoe]
       if stats[:player_name] == player
       end 
     end 
