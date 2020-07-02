@@ -191,6 +191,7 @@ def player_stats(player)
       end 
     end 
   end
+  nu_stats = {}
   dastats = da_stats.each do |stats,value|
     nu_stats = {stats => value}
   end
