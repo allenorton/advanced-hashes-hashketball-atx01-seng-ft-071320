@@ -191,6 +191,7 @@ def player_stats(player)
       end 
     end 
   nu_stats = Hash[da_stats.map {|key, value| [key, value]}]
+  nu_stats
   end
   binding.pry 
 end 
