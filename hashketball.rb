@@ -187,7 +187,7 @@ def player_stats(player)
   game_hash.each do |home_away, categories|
     categories[:players].each do |player_array|
       if player_array[:player_name] == player
-        player_array[:players].each_with_object({})
+        da_stats = player_array[:players].each_with_object({}) {|k,v|}
         #da_stats = player_array.collect {|player_array| player_array[0...7]}
       end 
     end 
