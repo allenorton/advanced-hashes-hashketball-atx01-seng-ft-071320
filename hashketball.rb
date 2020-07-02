@@ -189,10 +189,10 @@ def player_stats(player)
       if stats[:player_name] == player
         #player_array[:players].each_with_object({}) {|k,v, da_stats|}
         #da_stats = stats.each {|k,v| k = v}
-        da_stats = stats.each_pair { |stat, value| }
+        return stats.each_pair { |stat, value| }
       end 
     end 
-    da_stats
+    #da_stats
   end
   #binding.pry 
 end 
