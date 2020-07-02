@@ -191,7 +191,7 @@ def player_stats(player)
       end 
     end 
   end
-  da_final_stats = da_stats.collect
+  da_final_stats = da_stats.collect {|stats|}
   binding.pry 
 end 
 
