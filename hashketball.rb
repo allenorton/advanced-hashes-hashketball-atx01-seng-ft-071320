@@ -183,7 +183,7 @@ def player_numbers(team_n)
 end
 
 def player_stats(player)
-  da_stats = {}
+  da_stats = []
   game_hash.each do |home_away, categories|
     categories[:players].each do |player_array|
       if player_array[:player_name] == player
