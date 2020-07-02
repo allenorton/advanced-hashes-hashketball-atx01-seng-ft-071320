@@ -191,9 +191,7 @@ def player_stats(player)
       end 
     end 
   end
-  nu_stats = {}
-da_stats.each do |stats,value|
-    nu_stats = {stats => value}
+  nu_stats = Hash[da_stats.map {|key, value| [key, value]}]
   end
   binding.pry 
 end 
