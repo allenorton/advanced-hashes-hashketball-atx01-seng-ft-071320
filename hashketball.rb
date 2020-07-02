@@ -193,7 +193,7 @@ def player_stats(player)
     end 
     da_stats
   end
-  binding.pry 
+  #binding.pry 
 end 
 
 def big_shoe_rebounds
