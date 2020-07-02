@@ -190,7 +190,7 @@ def player_stats(player)
         da_stats = player_array.collect {|player_array| player_array[0...8]}
       end 
     end 
-    statss = da_stats.to_h 
+    statss = da_stats
     statss
   end
   binding.pry 
