@@ -190,6 +190,7 @@ def player_stats(player)
         da_stats = player_array.collect {|player_array| player_array[0...8]}
       end 
     end 
+    da_stats
     a= Hash[da_stats.collect { |stat_name, stat| [stat_name, stat] } ]
     a 
   end
