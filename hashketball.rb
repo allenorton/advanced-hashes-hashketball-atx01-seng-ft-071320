@@ -191,9 +191,6 @@ def player_stats(player)
       end 
     end 
     da_stats
-    a= Hash[da_stats.collect { |stat_name, stat| [stat_name, stat] } ]
-    a 
-  end
   binding.pry 
 end 
 
