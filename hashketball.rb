@@ -191,7 +191,9 @@ def player_stats(player)
       end 
     end 
   end
-  da_final_stats = da_stats.each do |stats,value|
+  dastats = da_stats.each do |stats,value|
+    nu_stats = {stats => value}
+  end
   binding.pry 
 end 
 
