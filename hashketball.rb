@@ -188,7 +188,7 @@ def player_stats(player)
     categories[:players].each do |player_array|
       if player_array[:player_name] == player
         #player_array[:players].each_with_object({}) {|k,v, da_stats|}
-        da_stats = player_array.collect {|player_array| player_array[0...78}
+        da_stats = player_array.collect {|player_array| player_array[0...8]}
       end 
     end 
     da_stats
