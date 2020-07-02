@@ -189,7 +189,7 @@ def player_stats(player)
       if stats[:player_name] == player
         #player_array[:players].each_with_object({}) {|k,v, da_stats|}
         #da_stats = stats.each {|k,v| k = v}
-        return stats.delete_if { |stat, value| [:player_name].include?(stat)}
+        return stats.delete_if { |stat, value| stat = 99}
       end 
     end 
     #da_stats
