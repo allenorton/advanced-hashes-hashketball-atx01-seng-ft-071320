@@ -191,10 +191,6 @@ def player_stats(player)
       end 
     end 
   end
-  nu_stats = {}
-  da_stats.each do |stats,value|
-    nu_stats = {stats => value}
-  end
   finA 
   binding.pry 
 end 
